@@ -5,6 +5,7 @@
 package PackageVetanas;
 
 import com.formdev.flatlaf.FlatDarculaLaf;
+import com.formdev.flatlaf.FlatIntelliJLaf;
 import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.Image;
@@ -281,7 +282,7 @@ public class login extends javax.swing.JFrame {
             logger.log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-        FlatDarculaLaf.install();
+        FlatIntelliJLaf.install();
         UIManager.put("Button.arc", 999);
 
         /* Create and display the form */
